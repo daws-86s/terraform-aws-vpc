@@ -73,3 +73,8 @@ variable "nat_gateway_tags" {
     type = map
     default = {}
 }
+
+variable "is_peering_required" {
+    type = bool
+    default = true
+}
